@@ -46,7 +46,9 @@ function createManifest () {
     },
     icons,
     permissions: [
-      'storage',
+      'storage'
+    ],
+    host_permissions: [
       '*://*.itesco.cz/*',
       '*://itesco.cz/*',
       '*://*.kosik.cz/*',

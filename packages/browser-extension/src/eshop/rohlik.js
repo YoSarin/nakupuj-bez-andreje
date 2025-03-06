@@ -8,6 +8,7 @@ function setup (highlight) {
       highlight.matchText('div[data-test^="productCard-UNAVAILABLE"]', '[data-test="productCard-body-name"]')
       highlight.matchText('#productDetail')
     })
+    console.log('Rohlik')
   }
 }
 
